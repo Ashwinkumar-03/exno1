@@ -36,6 +36,9 @@ df.fillna(method='ffill')
 
 ```
 
+# Output
+1. Read and display DataFrame
+
 ```
 import pandas as pd
 df = pd.read_csv("SAMPLEIDS.csv")
@@ -84,7 +87,6 @@ df.fillna(method='ffill')
 
 ![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/1ad10c50-0e75-4660-95bb-e2f9f5f67d80)
 
-# Output
 
 
 # Result
