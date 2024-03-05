@@ -20,23 +20,7 @@ STEP 5: Remove outliers using IQR
 
 STEP 6: Use zscore of to remove outliers
 
-# Code :
-```
-import pandas as pd
-df = pd.read_csv("SAMPLEIDS.csv")
-print(df)
-df.head(5)
-df.describe()
-df.info()
-df.tail()
-df.shape
-df.isnull().sum()
-df.fillna(value=10)
-df.fillna(method='ffill')
-
-```
-
-# Output
+# Code and Output
 ### 1. Read and display DataFrame
 
 ```
@@ -88,6 +72,39 @@ df.fillna(method='ffill')
 
 ![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/1ad10c50-0e75-4660-95bb-e2f9f5f67d80)
 
+
+## IQR METHOD:
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/8ddf662f-4841-4d79-bfd6-a8a6cfc845ea)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/417d4ef4-fb53-4c46-9486-b152c898490c)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/123d5d45-acf7-40ca-a976-e7425539de05)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/10893ace-891f-4f41-b6e8-54df22531525)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/5aadd65e-5a98-4f34-abe9-54a7fdf2353d)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/43427525-4ffc-4886-a27f-b3c89c2ea0f3)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/e5476b21-c662-4f1c-ad79-9f0a08d768c5)
+
+
+## Z-SCORE METHOD:
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/e4cf2d42-f7b4-49dd-a80e-366a48786e5d)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/02b4980e-29fc-4939-9362-c68531cacbd3)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/3b6744c4-3f4a-488f-baa3-d57fe76b4683)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/dd967c3b-d963-49da-83f5-177a8ff999d5)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/050e8baa-2b68-4c5e-9270-80b098b8ecb7)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/2f869bfb-1cf8-41f4-ba05-6a8be2315538)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/573946b5-f540-4d27-8497-2666fefb8917)
 
 
 # Result:
